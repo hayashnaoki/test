@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Site
+title: Projects
 ---
 
 # Projects
