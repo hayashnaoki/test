@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Sushi is fundamentally scalable.
+# Is Sushi fundamentally scalable?
 
 ## Sushi is fundamentally scalable. Sushi is fundamentally scalable. 
 
