@@ -1,0 +1,169 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Colors */
+body {
+  background: #ffffff;
+}
+
+/* Headings */
+h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+/* Header and Footer */
+.site-header {
+  border-bottom: none;
+}
+
+.site-footer {
+  border-top: none;
+}
+
+/* blockquote */
+blockquote {
+  border-left: 4px solid #000;
+  padding-left: 1em;
+  margin: 1.5em 0;
+  //font-style: normal;     /* italic を無効化 */
+  color: #000;            /* 黒に戻す */
+  background: transparent;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* inline code */
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", monospace;
+  font-size: 0.9em;
+
+  background-color: #f2f2f2 !important; /* 薄いグレー */
+  color: #000;
+
+  border: none !important;              /* 枠線完全削除 */
+  box-shadow: none !important;
+}
+
+/* code block */
+pre,
+.highlight {
+  background-color: #f2f2f2 !important; /* 水色を完全に潰す */
+  border: none;
+}
+
+pre code {
+  background: transparent !important;
+}
+
+/* Syntax highlighting */
+.highlight,
+pre code {
+  color: #111; /* ベースはほぼ黒 */
+}
+.highlight .c,
+.highlight .c1,
+.highlight .cm {
+  color: #6b7280; /* グレー */
+}
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kp {
+  color: #1d4ed8; /* 落ち着いたブルー */
+}
+.highlight .s,
+.highlight .s1,
+.highlight .s2 {
+  color: #047857; /* 深いグリーン */
+}
+.highlight .mi,
+.highlight .mf,
+.highlight .mh {
+  color: #7c2d12; /* ブラウン寄り */
+}
+.highlight .nf,
+.highlight .nc {
+  color: #7c3aed; /* 紫（控えめ） */
+}
+.highlight .nv,
+.highlight .vc {
+  color: #0f766e; /* 青緑 */
+}
+.highlight .o {
+  color: #374151; /* ダークグレー */
+}
+
+/* .note */
+.note::before {
+  content: "NOTE";
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+  color: #005eff;
+}
+
+.warning::before {
+  content: "WARNING";
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+  color: #ff2a00;
+}
+
+/* tables */
+/* ===== table 完全リセット ===== */
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* table自体の外枠を消す */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ===== 横線のみ再定義 ===== */
+th,
+td {
+  border-bottom: 2px solid #000000 !important;
+  padding: 0.5em 0.6em;
+}
+
+/* ヘッダーを少し強調（任意） */
+th {
+  font-weight: 600;
+}
+
+/* 最後の行の下線を消したい場合（任意） */
+tbody tr:last-child td {
+  border-bottom: none;
+}
