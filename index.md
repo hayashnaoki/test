@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-# Is Sushi fundamentally scalable?
+# Is sushi fundamentally scalable?
 
-## Sushi is fundamentally scalable. Sushi is fundamentally scalable. 
+## This is a placeholder. Sushi is fundamentally scalable.
 
-### Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
+### This is a placeholder. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
 
-Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
+This site is for sharing Grasshopper definitions for scalable generation of sushi. The recipes are open, but the tuna must be sourced locally.
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 
@@ -28,34 +28,26 @@ Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is funda
 
 | Name | Descriptions | Quantity |
 | --- | --- | --- |
-| Rhino | 3D CAD specifically for surface modeling | 310 |
+| Rhino | Sushi modeling software | 1 |
 | Grasshopper | Scalable sushi solution | 46 |
 
 Inline code: `code goes here`
 
 ```
-import sushi
+import neta
 import shari
-from datetime import datetime
 
-# Serial 
-ser = serial.Serial('/dev/tty.usbmodem14101', 14101)
+sushi = neta.sakana(tuna) + shari(wasabi = 1)
 
-# Make CSV file and writer
-csv_file = open("vbat_log.csv", "a", newline="")
-writer = csv.writer(csv_file)
-
-print("Logging started... (Ctrl+C to stop)")
+print("Serving...")
 ```
 
-> Quote: Sushi is fundamentally scalable.
+> Quote: "Sushi is fundamentally scalable."
 
 
 <div class="note">
 Sushi is fundamentally scalable.
 </div>
-
-Sushi is fundamentally scalable.
 
 <div class="warning">
 Sushi is fundamentally scalable.
