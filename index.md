@@ -16,7 +16,7 @@ Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is funda
 ![](./docs/images/rhgh.jpg)
 
 <iframe 
-  src="https://player.vimeo.com/video/904894755?badge=0&autopause=0&player_id=0&app_id=58479&controls=0&autoplay=1&muted=1" 
+  src="https://player.vimeo.com/video/904894755?badge=0&autopause=0&player_id=0&app_id=58479&controls=0&autoplay=1&muted=1&loop=1" 
   width="100%" 
   height="auto" 
   style="aspect-ratio:1/1;" 
@@ -25,7 +25,6 @@ Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is funda
   referrerpolicy="strict-origin-when-cross-origin" 
   title="GH Lab | 2022_2023">
 </iframe>
-
 
 | Name | Descriptions | Quantity |
 | --- | --- | --- |
