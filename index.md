@@ -9,7 +9,7 @@ title: Home
 
 ### This is a placeholder. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
 
-This site is for sharing Grasshopper definitions for scalable generation of sushi. The recipes are open, but the tuna must be sourced locally.
+This is a placeholder. This site is open to the public to share scalable sushi-generating Grasshopper definitions. The recipes are public, but please note that you will need to source your own tuna.
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 
@@ -29,26 +29,56 @@ This site is for sharing Grasshopper definitions for scalable generation of sush
 | Name | Descriptions | Quantity |
 | --- | --- | --- |
 | Rhino | Sushi modeling software | 1 |
-| Grasshopper | Scalable sushi solution | 46 |
+| Grasshopper | Scalable sushi delivery solution | 46 |
 
 Inline code: `code goes here`
 
+```py
+def prepare_rice(rice_type="short_grain"):
+    print(f"Washing and cooking {rice_type} rice...")
+    return "fluffy_sushi_rice"
+
+def slice_fish(fish="salmon", thickness="thin"):
+    print(f"Slicing {fish} into {thickness} pieces.")
+    return f"{fish}_slices"
+
+def roll_maki(rice, fish, extras=None):
+    extras = extras or ["nori"]
+    print(f"Rolling maki with {rice}, {fish}, and {', '.join(extras)}.")
+    return "maki_roll"
+
+def add_wasabi(level="small"):
+    print(f"Adding a {level} amount of wasabi.")
+    return "wasabi_dab"
+
+def plate_sushi(roll, garnish="pickled_ginger"):
+    print(f"Plating {roll} with {garnish}.")
+    return "finished_sushi_plate"
+
+
+# Example flow (not real execution logic)
+rice = prepare_rice()
+fish = slice_fish("tuna")
+roll = roll_maki(rice, fish, extras=["cucumber", "nori"])
+wasabi = add_wasabi("medium")
+plate = plate_sushi(roll)
+
+print("Sushi ready to serve.")
 ```
-import neta
-import shari
 
-sushi = neta.sakana(tuna) + shari(wasabi = 1)
+> Quotes:
+>
+- Keep calm and eat sushi.  
+- You had me at sushi.  
+- Sushi makes miso happy.  
+- Life is better with a sushi roll in hand.  
+- Just roll with it.  
+- Whatever the question, the answer is sushi.
 
-print("Serving...")
-```
+{: .note}
+This is a **note**. Sushi is fundamentally scalable.
 
-> Quote: "Sushi is fundamentally scalable."
+{: .warning}
+This is a **warning**. Sushi is exponentially scalable.
 
-
-<div class="note">
-Sushi is fundamentally scalable.
-</div>
-
-<div class="warning">
-Sushi is fundamentally scalable.
-</div>
+![](./docs/images/404.jpg)

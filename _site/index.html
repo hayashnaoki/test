@@ -33,13 +33,13 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="sushi-is-fundamentally-scalable">Sushi is fundamentally scalable.</h1>
+        <h1 id="is-sushi-fundamentally-scalable">Is sushi fundamentally scalable?</h1>
 
-<h2 id="sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable">Sushi is fundamentally scalable. Sushi is fundamentally scalable.</h2>
+<h2 id="this-is-a-placeholder-sushi-is-fundamentally-scalable">This is a placeholder. Sushi is fundamentally scalable.</h2>
 
-<h3 id="sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable">Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.</h3>
+<h3 id="this-is-a-placeholder-sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable-sushi-is-fundamentally-scalable">This is a placeholder. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.</h3>
 
-<p>Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.</p>
+<p>This is a placeholder. This site is open to the public to share scalable sushi-generating Grasshopper definitions. The recipes are public, but please note that you will need to source your own tuna.</p>
 
 <p><a href="https://hayashnaoki.github.io/test/">https://hayashnaoki.github.io/test/</a></p>
 
@@ -59,12 +59,12 @@
   <tbody>
     <tr>
       <td>Rhino</td>
-      <td>3D CAD specifically for surface modeling</td>
-      <td>310</td>
+      <td>Sushi modeling software</td>
+      <td>1</td>
     </tr>
     <tr>
       <td>Grasshopper</td>
-      <td>Scalable sushi solution</td>
+      <td>Scalable sushi delivery solution</td>
       <td>46</td>
     </tr>
   </tbody>
@@ -72,33 +72,56 @@
 
 <p>Inline code: <code class="language-plaintext highlighter-rouge">code goes here</code></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import sushi
-import shari
-from datetime import datetime
+<div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">prepare_rice</span><span class="p">(</span><span class="n">rice_type</span><span class="o">=</span><span class="sh">"</span><span class="s">short_grain</span><span class="sh">"</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Washing and cooking </span><span class="si">{</span><span class="n">rice_type</span><span class="si">}</span><span class="s"> rice...</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sh">"</span><span class="s">fluffy_sushi_rice</span><span class="sh">"</span>
 
-# Serial 
-ser = serial.Serial('/dev/tty.usbmodem14101', 14101)
+<span class="k">def</span> <span class="nf">slice_fish</span><span class="p">(</span><span class="n">fish</span><span class="o">=</span><span class="sh">"</span><span class="s">salmon</span><span class="sh">"</span><span class="p">,</span> <span class="n">thickness</span><span class="o">=</span><span class="sh">"</span><span class="s">thin</span><span class="sh">"</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Slicing </span><span class="si">{</span><span class="n">fish</span><span class="si">}</span><span class="s"> into </span><span class="si">{</span><span class="n">thickness</span><span class="si">}</span><span class="s"> pieces.</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="sh">"</span><span class="si">{</span><span class="n">fish</span><span class="si">}</span><span class="s">_slices</span><span class="sh">"</span>
 
-# Make CSV file and writer
-csv_file = open("vbat_log.csv", "a", newline="")
-writer = csv.writer(csv_file)
+<span class="k">def</span> <span class="nf">roll_maki</span><span class="p">(</span><span class="n">rice</span><span class="p">,</span> <span class="n">fish</span><span class="p">,</span> <span class="n">extras</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="n">extras</span> <span class="o">=</span> <span class="n">extras</span> <span class="ow">or</span> <span class="p">[</span><span class="sh">"</span><span class="s">nori</span><span class="sh">"</span><span class="p">]</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Rolling maki with </span><span class="si">{</span><span class="n">rice</span><span class="si">}</span><span class="s">, </span><span class="si">{</span><span class="n">fish</span><span class="si">}</span><span class="s">, and </span><span class="si">{</span><span class="sh">'</span><span class="s">, </span><span class="sh">'</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">extras</span><span class="p">)</span><span class="si">}</span><span class="s">.</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sh">"</span><span class="s">maki_roll</span><span class="sh">"</span>
 
-print("Logging started... (Ctrl+C to stop)")
+<span class="k">def</span> <span class="nf">add_wasabi</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="sh">"</span><span class="s">small</span><span class="sh">"</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Adding a </span><span class="si">{</span><span class="n">level</span><span class="si">}</span><span class="s"> amount of wasabi.</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sh">"</span><span class="s">wasabi_dab</span><span class="sh">"</span>
+
+<span class="k">def</span> <span class="nf">plate_sushi</span><span class="p">(</span><span class="n">roll</span><span class="p">,</span> <span class="n">garnish</span><span class="o">=</span><span class="sh">"</span><span class="s">pickled_ginger</span><span class="sh">"</span><span class="p">):</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Plating </span><span class="si">{</span><span class="n">roll</span><span class="si">}</span><span class="s"> with </span><span class="si">{</span><span class="n">garnish</span><span class="si">}</span><span class="s">.</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sh">"</span><span class="s">finished_sushi_plate</span><span class="sh">"</span>
+
+
+<span class="c1"># Example flow (not real execution logic)
+</span><span class="n">rice</span> <span class="o">=</span> <span class="nf">prepare_rice</span><span class="p">()</span>
+<span class="n">fish</span> <span class="o">=</span> <span class="nf">slice_fish</span><span class="p">(</span><span class="sh">"</span><span class="s">tuna</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">roll</span> <span class="o">=</span> <span class="nf">roll_maki</span><span class="p">(</span><span class="n">rice</span><span class="p">,</span> <span class="n">fish</span><span class="p">,</span> <span class="n">extras</span><span class="o">=</span><span class="p">[</span><span class="sh">"</span><span class="s">cucumber</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">nori</span><span class="sh">"</span><span class="p">])</span>
+<span class="n">wasabi</span> <span class="o">=</span> <span class="nf">add_wasabi</span><span class="p">(</span><span class="sh">"</span><span class="s">medium</span><span class="sh">"</span><span class="p">)</span>
+<span class="n">plate</span> <span class="o">=</span> <span class="nf">plate_sushi</span><span class="p">(</span><span class="n">roll</span><span class="p">)</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Sushi ready to serve.</span><span class="sh">"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <blockquote>
-  <p>Quote: Sushi is fundamentally scalable.</p>
+  <p>Quotes:</p>
+
+  <ul>
+    <li>Keep calm and eat sushi.</li>
+    <li>You had me at sushi.</li>
+    <li>Sushi makes miso happy.</li>
+    <li>Life is better with a sushi roll in hand.</li>
+    <li>Just roll with it.</li>
+    <li>Whatever the question, the answer is sushi.</li>
+  </ul>
 </blockquote>
 
-<div class="note">
-Sushi is fundamentally scalable.
-</div>
+<p class="note">This is a <strong>note</strong>. Sushi is fundamentally scalable.</p>
 
-<p>Sushi is fundamentally scalable.</p>
+<p class="warning">This is a <strong>warning</strong>. Sushi is exponentially scalable.</p>
 
-<div class="warning">
-Sushi is fundamentally scalable.
-</div>
+<p><img src="./docs/images/404.jpg" alt="" /></p>
 
       </div>
     </main><footer class="site-footer h-card">
