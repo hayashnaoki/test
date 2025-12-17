@@ -89,5 +89,3 @@ This is a **note**. Sushi is fundamentally scalable.
 
 {: .warning}
 This is a **warning**. Sushi is exponentially scalable.
-
-![](./docs/images/404.jpg)

@@ -5,7 +5,7 @@ title: Projects
 
 # Projects
 
-[Home](../index.md)
+![](./images/sushi.jpg)
 
 ## Jekyll Overview
 
@@ -69,3 +69,5 @@ Markdown is converted into static HTML/CSS at build time.
 - Theme CSS overriding custom styles
 - SCSS compile errors
 - Git history rewrites breaking push
+
+[Home](../index.md)
