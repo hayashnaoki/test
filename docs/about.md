@@ -7,6 +7,6 @@ title: About
 
 Industrial / Computational designer / Maker
 
-![](./docs/images/404.jpg)
+![](./images/404.jpg)
 
 [Home](../index.md)
