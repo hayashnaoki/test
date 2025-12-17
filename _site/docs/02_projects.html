@@ -28,15 +28,86 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/docs/01_about.html">About</a><a class="page-link" href="/docs/02_projects.html">Projects</a><a class="page-link" href="/">Home</a></div>
+        <div class="trigger"><a class="page-link" href="/docs/01_about.html">About</a><a class="page-link" href="/docs/02_projects.html">Projects</a></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <h1 id="projects">Projects</h1>
 
-<p><a href="https://fabacademy.org/2025/labs/kannai/students/naoki-hayashi/">Fab Academy 2025</a></p>
+<p><a href="../index.md">Home</a></p>
 
+<h2 id="jekyll-overview">Jekyll Overview</h2>
+
+<p><strong>Jekyll</strong> is a static site generator used by GitHub Pages.</p>
+
+<p>Markdown is converted into static HTML/CSS at build time.</p>
+
+<hr />
+
+<h2 id="core-concepts">Core Concepts</h2>
+
+<h3 id="jekyll">Jekyll</h3>
+
+<ul>
+  <li>Build-time only</li>
+  <li>Fixed structure</li>
+  <li>No server or backend</li>
+</ul>
+
+<h3 id="theme">Theme</h3>
+
+<ul>
+  <li>Provides layouts + default CSS</li>
+  <li>Repo files override theme files</li>
+  <li>GitHub Pages supports limited themes/versions</li>
+</ul>
+
+<h3 id="css--scss">CSS / SCSS</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">assets/main.scss</code> is the entry point</li>
+  <li>Compiled to <code class="language-plaintext highlighter-rouge">assets/main.css</code></li>
+  <li>Build fails if SCSS has errors</li>
+</ul>
+
+<hr />
+
+<h2 id="minimal-structure">Minimal Structure</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
+├── _config.yml
+├── Gemfile
+├── index.md
+├── docs/
+├── assets/
+│   └── main.scss
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="essential-steps">Essential Steps</h2>
+
+<ol>
+  <li>Create repo</li>
+  <li>Set theme</li>
+  <li>Write Markdown</li>
+  <li>Customize CSS</li>
+  <li>Preview locally</li>
+  <li>Push to GitHub</li>
+</ol>
+
+<hr />
+
+<h2 id="things-to-watch-out-for">Things to Watch Out For</h2>
+
+<ul>
+  <li>Local vs GitHub Pages build differences</li>
+  <li>Theme CSS overriding custom styles</li>
+  <li>SCSS compile errors</li>
+  <li>Git history rewrites breaking push</li>
+</ul>
 
       </div>
     </main><footer class="site-footer h-card">

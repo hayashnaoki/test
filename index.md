@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+# title: Home
 ---
 
 # Is sushi fundamentally scalable?
@@ -74,6 +74,15 @@ print("Sushi ready to serve.")
 - Life is better with a sushi roll in hand.  
 - Just roll with it.  
 - Whatever the question, the answer is sushi.
+
+Menu
+
+1. Rhino sushi
+1. Grasshopper sushi
+    1. Kangaroo sushi
+    1. Galapagos sushi
+    1. Firefly sushi
+    1. GhPython sushi
 
 {: .note}
 This is a **note**. Sushi is fundamentally scalable.
