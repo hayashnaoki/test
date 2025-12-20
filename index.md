@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+nav_order: 1
 ---
 
 # Is sushi fundamentally scalable?
@@ -10,6 +11,8 @@ title: Home
 ### This is a placeholder. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
 
 This is a placeholder. This site is open to the public to share scalable sushi-generating Grasshopper definitions. The recipes are public, but please note that you will need to source your own tuna.
+
+これは日本語のプレースホルダーです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 
@@ -31,7 +34,8 @@ This is a placeholder. This site is open to the public to share scalable sushi-g
 | Rhino | Sushi modeling software | 1 |
 | Grasshopper | Scalable sushi delivery solution | 46 |
 
-Inline code: `code goes here`
+Inline code: `code goes here`  
+インラインコード: `コードが通ります`
 
 ```py
 def prepare_rice(rice_type="short_grain"):
@@ -55,8 +59,8 @@ def plate_sushi(roll, garnish="pickled_ginger"):
     print(f"Plating {roll} with {garnish}.")
     return "finished_sushi_plate"
 
-
 # Example flow (not real execution logic)
+# これは日本語のコメントです
 rice = prepare_rice()
 fish = slice_fish("tuna")
 roll = roll_maki(rice, fish, extras=["cucumber", "nori"])

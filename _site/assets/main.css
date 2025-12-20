@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Mono:wght@100..900&display=swap");
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -653,7 +653,7 @@ table td {
 /* Web fonts */
 /* Base font */
 body {
-  font-family: "Inter", system-ui, sans-serif;
+  font-family: "Noto Sans JP", system-ui, sans-serif;
 }
 
 /* =========================================================
@@ -719,7 +719,7 @@ blockquote p {
    Inline Code
    ========================================================= */
 code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-family: "Noto Sans Mono", system-ui, sans-serif;
   font-size: 0.9em;
   background-color: #f2f2f2 !important;
   color: #000;
@@ -733,6 +733,7 @@ code {
    ========================================================= */
 pre,
 .highlight {
+  font-family: "Noto Sans Mono", system-ui, sans-serif;
   background-color: #f2f2f2 !important;
   border: none;
 }
