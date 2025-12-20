@@ -89,7 +89,7 @@ Menu
     1. GhPython sushi
 
 {: .note}
-This is a **note**. Sushi is fundamentally scalable.
+This is a **note** (`{: .note}`). Sushi is fundamentally scalable.
 
 {: .warning}
-This is a **warning**. Sushi is exponentially scalable.
+This is a **warning** (`{: .warning}`). Sushi is exponentially scalable.
