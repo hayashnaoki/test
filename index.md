@@ -12,7 +12,7 @@ nav_exclude: true
 
 This is a placeholder. This site is open to the public to share scalable sushi-generating Grasshopper definitions. The recipes are public, but please note that you will need to source your own tuna.
 
-これは日本語のプレースホルダーです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。寿司は基本的にスケーラブルです。
+これはプレースホルダです。このサイトは、スケーラブルな寿司生成のためのGrasshopper定義を共有するために公開されています。レシピは公開されていますが、マグロはご自身でご用意いただく必要がありますのでご注意ください。
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 

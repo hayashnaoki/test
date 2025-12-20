@@ -1,9 +1,18 @@
+# Site title (shown in header and browser tab)
 title: Naoki Hayashi test
 
+# Pages to show in the top navigation
+header_pages:
+  - docs/projects.md
+  - docs/about.md
+
+# Jekyll theme
 theme: minima
 
+# Markdown engine
 markdown: kramdown
 
+# Markdown + syntax highlighting settings
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+  input: GFM            # GitHub Flavored Markdown
+  syntax_highlighter: rouge  # Code highlighting engine

@@ -3,18 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>About | Naoki Hayashi test</title>
+<title>Jekyll | Naoki Hayashi test</title>
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Jekyll" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/docs/about.html" />
-<meta property="og:url" content="http://localhost:4000/docs/about.html" />
+<link rel="canonical" href="http://localhost:4000/docs/projects/01_jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/docs/projects/01_jekyll.html" />
 <meta property="og:site_name" content="Naoki Hayashi test" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="About" />
+<meta property="twitter:title" content="Jekyll" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"About","url":"http://localhost:4000/docs/about.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Jekyll","url":"http://localhost:4000/docs/projects/01_jekyll.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Naoki Hayashi test" /></head>
 <body><header class="site-header" role="banner">
@@ -34,13 +34,79 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="naoki-hayashi">Naoki Hayashi</h1>
+        <h1 id="jekyll">Jekyll</h1>
 
-<h2 id="industrial--computational-sushi-designer-icsd">Industrial / Computational Sushi Designer (ICSD)</h2>
+<h2 id="jekyll-overview">Jekyll Overview</h2>
 
-<p>I am an industrial and computational sushi designer. I treat sushi as a design system defined by parameters such as proportion, sequence, and repetition. These constraints align naturally with both computational and industrial design. Computational design allows sushi to be described as adjustable rules, while industrial design focuses on how those rules are physically realized through tools, processes, and reproducibility. My work sits at this intersection, exploring sushi as a scalable, designed system.</p>
+<p><strong>Jekyll</strong> is a static site generator used by GitHub Pages.</p>
 
-<p><img src="./images/404.jpg" alt="" /></p>
+<p>Markdown is converted into static HTML/CSS at build time.</p>
+
+<hr />
+
+<h2 id="core-concepts">Core Concepts</h2>
+
+<h3 id="jekyll-1">Jekyll</h3>
+
+<ul>
+  <li>Build-time only</li>
+  <li>Fixed structure</li>
+  <li>No server or backend</li>
+</ul>
+
+<h3 id="theme">Theme</h3>
+
+<ul>
+  <li>Provides layouts + default CSS</li>
+  <li>Repo files override theme files</li>
+  <li>GitHub Pages supports limited themes/versions</li>
+</ul>
+
+<h3 id="css--scss">CSS / SCSS</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">assets/main.scss</code> is the entry point</li>
+  <li>Compiled to <code class="language-plaintext highlighter-rouge">assets/main.css</code></li>
+  <li>Build fails if SCSS has errors</li>
+</ul>
+
+<hr />
+
+<h2 id="minimal-structure">Minimal Structure</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
+├── _config.yml
+├── Gemfile
+├── index.md
+├── docs/
+├── assets/
+│   └── main.scss
+
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="essential-steps">Essential Steps</h2>
+
+<ol>
+  <li>Create repo</li>
+  <li>Set theme</li>
+  <li>Write Markdown</li>
+  <li>Customize CSS</li>
+  <li>Preview locally</li>
+  <li>Push to GitHub</li>
+</ol>
+
+<hr />
+
+<h2 id="things-to-watch-out-for">Things to Watch Out For</h2>
+
+<ul>
+  <li>Local vs GitHub Pages build differences</li>
+  <li>Theme CSS overriding custom styles</li>
+  <li>SCSS compile errors</li>
+  <li>Git history rewrites breaking push</li>
+</ul>
 
 <p><a href="../index.md">Home</a></p>
 
