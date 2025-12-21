@@ -3,7 +3,7 @@ layout: default
 title: PROJECTS
 ---
 
-# Projects
+# PROJECTS
 
 1. [Jekyll](projects/01_jekyll.md)
 1. [Sushi rolls](projects/02_sushi_rolls.md)

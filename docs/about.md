@@ -3,7 +3,8 @@ layout: default
 title: ABOUT
 ---
 
-# Naoki Hayashi
+# Naoki HAYASHI
+# 林 直樹
 
 ## Industrial / Computational Sushi Designer (ICSD)
 
@@ -11,4 +12,6 @@ I am an industrial and computational sushi designer. I treat sushi as a design s
 
 ![](./images/404.jpg)
 
-[Home](../index.md)
+### Elsewhere
+
+| [Github]() | [Printables]() | [Instagram]() | [Behance]() |
