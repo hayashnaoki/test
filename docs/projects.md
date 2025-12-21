@@ -27,5 +27,8 @@ Description goes here. Of course sushi is still scalable.
 {: .note}
 Note: **Links** like `[name](projects/page.md)` will *work* after pushing, but <u>will not work during local preview.</u>
 
+{: .note}
+Note: Sometimes css changes take time. Be patient...
+
 ---
 
