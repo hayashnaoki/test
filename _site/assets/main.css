@@ -694,14 +694,44 @@ h3 {
 /* =========================================================
    Header / Footer
    ========================================================= */
-/* Remove default header divider */
+/* Remove default dividers */
 .site-header {
   border-bottom: none;
 }
 
-/* Remove default footer divider */
 .site-footer {
   border-top: none;
+  /* Layout */
+  margin-top: 4rem;
+  padding: 1.5rem 1.5rem 1.5rem 0; /* top right bottom left */
+  /* Typography */
+  font-size: 0.85rem;
+  color: #000;
+}
+
+/* =========================================================
+   Footer Links
+   ========================================================= */
+.footer-links {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  margin-right: 1rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* =========================================================
+   Footer License
+   ========================================================= */
+.footer-license {
+  color: #000;
 }
 
 /* =========================================================

@@ -17,8 +17,3 @@ markdown: kramdown
 kramdown:
   input: GFM            # GitHub Flavored Markdown
   syntax_highlighter: rouge  # Code highlighting engine
-
-# Social media usernames
-github_username: hayashnaoki
-instagram_username: hayashnaoki
-linkedin_username: hayashnaoki
