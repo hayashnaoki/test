@@ -15,6 +15,11 @@ title: LAB
 ## [Udon](./lab/udon.md)
 2025/12/21, Type: Gh, File: [Gh]()
 
-<video src="./images/fractal_resized.mp4" autoplay loop width="100%"></video>
+<iframe
+  src="https://player.vimeo.com/video/904894755?autoplay=1&muted=1&loop=1&controls=0"
+  style="aspect-ratio:1/1; width:100%;"
+  allow="autoplay; fullscreen"
+  title="GH Lab | 2022_2023">
+</iframe>
 
 ---
