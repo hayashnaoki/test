@@ -5,7 +5,7 @@ title: Naoki HAYASHI
 header_pages:
   - docs/projects.md
   - docs/about.md
-  - docs/news.md
+  - docs/lab.md
 
 # Jekyll theme
 theme: minima
