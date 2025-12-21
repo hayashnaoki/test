@@ -20,7 +20,6 @@ body {
   background: #ffffff;
 }
 
-
 /* =========================================================
    Headings
    ========================================================= */
@@ -63,6 +62,16 @@ h3 {
 /* Remove default footer divider */
 .site-footer {
   border-top: none;
+}
+
+
+/* =========================================================
+   Horizontal Rule
+   ========================================================= */
+.page-content hr {
+  border: none;
+  border-top: 2px solid #000;
+  margin: 1rem 0 1rem;
 }
 
 

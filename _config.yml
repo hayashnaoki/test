@@ -5,6 +5,7 @@ title: Naoki Hayashi test
 header_pages:
   - docs/projects.md
   - docs/about.md
+  - docs/news.md
 
 # Jekyll theme
 theme: minima
