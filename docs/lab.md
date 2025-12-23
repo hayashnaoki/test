@@ -6,13 +6,13 @@ title: LAB
 # LAB
 
 ---
-## [Soba](./lab/soba.md)
+## [Soba](/test/docs/lab/soba)
 2025/12/21, Type: Gh, File: [-]()
 
-<video src="./images/fractal_resized.mp4" autoplay loop width="100%"></video>
+<video src="/test/docs/images/fractal_resized.mp4" autoplay loop width="100%"></video>
 
 ---
-## [Udon](./lab/udon.md)
+## [Udon](/test/docs/lab/udon)
 
 2025/12/21, Type: Gh, File: [-]()
 
