@@ -10,8 +10,8 @@ title: PROJECTS
 
 ---
 
-## [This is a link to the Jekyll project](projects/01_jekyll.md) won't work during local preview.
-## [This is also a link to the Jekyll project.](/test/docs/projects/01_jekyll) will work.
+## [This link to the Jekyll project](projects/01_jekyll.md) won't work during local preview.
+## [This link also to the Jekyll project](/test/docs/projects/01_jekyll) will work.
 
 Description goes here. Of course sushi is still scalable.
 
