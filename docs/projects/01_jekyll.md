@@ -68,4 +68,4 @@ Markdown is converted into static HTML/CSS at build time.
 - SCSS compile errors
 - Git history rewrites breaking push
 
-[Home](../index.md)
+[Home](/test/docs/projects)

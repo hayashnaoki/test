@@ -1,6 +1,9 @@
 # Site title (shown in header and browser tab)
 title: NAOKI HAYASHI 
 
+# Make local preview match GitHub Pages exactly
+baseurl: "/test"
+
 # Pages to show in the top navigation
 header_pages:
   - docs/projects.md

@@ -12,6 +12,6 @@ I am an industrial and computational sushi designer. I treat sushi as a design s
 
 ![](./images/404.jpg)
 
-### Elsewhere
+### Contact
 
-| [Github](https://github.com/hayashnaoki) | [Instagram](https://www.instagram.com/hayashnaoki/) | [Behance](https://www.behance.net/hayashnaoki) | [Printables](https://www.printables.com/@hayashnaoki) | <a href="mailto:hayashnaoki@gmail.com">e-mail</a> |
+<a href="mailto:hayashnaoki@gmail.com">hayashnaoki@gmail.com</a>
