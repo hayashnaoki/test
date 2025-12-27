@@ -4,8 +4,11 @@ title: NAOKI HAYASHI
 # Pages to show in the top navigation
 header_pages:
   - docs/projects.md
-  - docs/about.md
   - docs/lab.md
+  - docs/about.md
+
+# Make local preview match GitHub Pages exactly
+baseurl: "/test"
 
 # Jekyll theme
 theme: minima

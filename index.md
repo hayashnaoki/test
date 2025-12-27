@@ -6,13 +6,13 @@ nav_exclude: true
 
 # Is sushi fundamentally scalable?
 
-## This is a placeholder. Sushi is fundamentally scalable.
+## Sushi can be understood as a system defined by clear parameters—portion, proportion, sequence, and repetition. In that sense, sushi is fundamentally scalable.
 
-### This is a placeholder. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable. Sushi is fundamentally scalable.
+### The same rules that define a single piece of sushi can be applied repeatedly without changing their logic. Scale changes the quantity, not the structure.
 
-This is a placeholder. This site is open to the public to share scalable sushi-generating Grasshopper definitions. The recipes are public, but please note that you will need to source your own tuna.
+This site is open to the public as a repository for scalable, sushi-generating Grasshopper definitions. The recipes and definitions are open and reproducible. Raw materials are not included; users are responsible for sourcing their own tuna.
 
-これはプレースホルダです。このサイトは、スケーラブルな寿司生成のためのGrasshopper定義を共有するために公開されています。レシピは公開されていますが、マグロはご自身でご用意いただく必要がありますのでご注意ください。
+このサイトは、スケーラブルな寿司生成のための Grasshopper 定義を共有する公開リポジトリです。レシピや定義は公開されていますが、原材料については各自でご用意ください。マグロは含まれていません。
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 
