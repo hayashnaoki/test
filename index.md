@@ -4,15 +4,25 @@ title: Home
 nav_exclude: true
 ---
 
-# Is sushi fundamentally scalable?
+# This is an H1 and appears very large. Maybe too large.
 
-## Sushi can be understood as a system defined by clear parameters—portion, proportion, sequence, and repetition. In that sense, sushi is fundamentally scalable.
+## This is an H2. Sushi can be understood as a system defined by clear parameters—portion, proportion, sequence, and repetition. 
 
-### The same rules that define a single piece of sushi can be applied repeatedly without changing their logic. Scale changes the quantity, not the structure.
+### This is an H3. The same rules that define a single piece of sushi can be applied repeatedly without changing their logic. Scale changes the quantity, not the structure.
 
-This site is open to the public as a repository for scalable, sushi-generating Grasshopper definitions. The recipes and definitions are open and reproducible. Raw materials are not included; users are responsible for sourcing their own tuna.
+This is an body. This site is open to the public as a repository for scalable, sushi-generating Grasshopper definitions. The recipes and definitions are open and reproducible. Raw materials are not included; users are responsible for sourcing their own tuna.
+
+# これは日本語です。
+
+## 意図しない改行を防ぐため、長い英単語は避けてください。
 
 このサイトは、スケーラブルな寿司生成のための Grasshopper 定義を共有する公開リポジトリです。レシピや定義は公開されていますが、原材料については各自でご用意ください。マグロは含まれていません。
+
+# 这是中文。
+
+##  Noto Sans JP 对中国的支持尚不完善。
+
+寿司看似简单，但由比例、顺序和重复构成。正因为这些清晰的规则，寿司可以在保持结构不变的情况下不断扩展和复制。
 
 [https://hayashnaoki.github.io/test/](https://hayashnaoki.github.io/test/)
 
